@@ -1,0 +1,15 @@
+$color-1: #ab3ed8;
+$color-2: #218fe9;
+$color-3: #2163c7;
+$fuente-principal: 'Fredoka', sans-serif;
+$titulo: 80px;
+$texto: 30px;
+$redes:(
+    facebook: #3b5998, 
+    twitter: #55acee, 
+    google: #dd4b39, 
+    instagram: #ac2bac
+);
+@mixin radio($radio) {
+    border-radius: $radio;
+}
